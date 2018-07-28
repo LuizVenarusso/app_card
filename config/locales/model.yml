@@ -1,0 +1,14 @@
+pt-BR:
+  activerecord:
+    models:
+      user: Usuário
+    attributes:
+      user:
+        name: Nome
+        surname: Sobrenome
+        email: Email
+        token: Token
+        admission_date: Data de Admissão
+        available_amount: Valor disponível no cartão
+  buttons:
+    Browse...: Importar
