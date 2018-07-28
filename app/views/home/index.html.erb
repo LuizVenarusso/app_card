@@ -1,3 +1,11 @@
 <div>
   Aplicativo de Cartões de Alimentação
 </div>
+<div>
+  <h4> Importar o dado </h4>
+
+  <%= form_tag import_users_path, multipart: true do %>
+  <%= file_field_tag :file %>
+  <%= submit_tag "Importar o arquivo CSV" %>
+  <% end %>
+</div>
